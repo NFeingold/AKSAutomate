@@ -1,17 +1,8 @@
 # AKSAutomate
-Sets up IoT Hub with AKS Cluster (--Location eastus)
 
+To use the hotkeys to automate this process, please first install AutoHotKey
 
-Click in the Shell for the text to paste in the correct place. 
-Make sure to have AutoHotKey installed
+The command for the first half is Ctrl+Shift+J
+The command for the latter half is Ctrl+Shift+L
 
-Pressing Ctrl+Shift+J will paste the following:
-
-
-
-
-Pressing Ctrl+Shift+L will paste the following: 
-
-
-
-*Note, this is simply the second half of the first command
+If you are looking to do this manually, you may just follow the steps provided by the two documents on the main page above
