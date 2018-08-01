@@ -1,6 +1,8 @@
-# AKSAutomate
+# Virtual Kubelet on IoT Hub 
 
-To use the hotkeys to automate this process, please first install AutoHotKey
+https://www.youtube.com/watch?v=XbkLWmjww8I
+
+To use the hotkeys to automate this process, first install AutoHotKey
 
 The command for the first half is Ctrl+Shift+J
 The command for the latter half is Ctrl+Shift+L
