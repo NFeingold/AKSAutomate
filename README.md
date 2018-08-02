@@ -1,12 +1,12 @@
 # Virtual Kubelet on IoT Hub 
-  For a full guide, Open the Kubernetes_AIoT_VK Document.
-  Follow along with this video: https://www.youtube.com/watch?v=XbkLWmjww8I
+  - For a full guide, Open the Kubernetes_AIoT_VK Document.
+  - Follow along with this video: https://www.youtube.com/watch?v=XbkLWmjww8I
 
 # AutoHotKey
 To use the hotkeys to automate this process, first install AutoHotKey
 
-  The command for the first half is Ctrl+Shift+J
-  The command for the latter half is Ctrl+Shift+L
+  - The command for the first half is Ctrl+Shift+J
+  - The command for the latter half is Ctrl+Shift+L
 
 #
 
