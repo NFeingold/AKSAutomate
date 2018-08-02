@@ -1,6 +1,6 @@
 # Virtual Kubelet on IoT Hub 
 
-For a full guide, Open the Kubernetes_AIoT_VK Document.
+For a full guide, Open the Kubernetes_AIoT_VK Document. \n
 Follow along with this video: https://www.youtube.com/watch?v=XbkLWmjww8I
 
 # AutoHotKey
