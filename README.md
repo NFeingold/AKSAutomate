@@ -2,8 +2,8 @@
 
 https://www.youtube.com/watch?v=XbkLWmjww8I
 
-# For a full guide, Open the Kubernetes_AIoT_VK Document, for explanations of everything.
-#
+# For a full guide, Open the Kubernetes_AIoT_VK Document
+
 To use the hotkeys to automate this process, first install AutoHotKey
 
 The command for the first half is Ctrl+Shift+J
