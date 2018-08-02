@@ -1,7 +1,7 @@
 # Steps to Use
 First, one must install [AutoHotKey](https://autohotkey.com/)<br/>
 
-Once Installed, download the two .ahk files above, then double click to prepare them. 
+Once Installed, download the two .h files above, then double click to prepare them. 
 
 Pressing Ctrl+Shift+J will prompt you for:
   - Resource Name 
