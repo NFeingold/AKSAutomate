@@ -10,6 +10,8 @@ To use the hotkeys to automate this process, first install AutoHotKey
 
 #
 
-If you are looking to do this manually, you may just follow the steps provided by the two documents on the main page above
+If you are looking to do this manually, you may just follow the steps provided by the "Guides" above
+
+#
 
 https://github.com/azure/iot-edge-virtual-kubelet-provider
