@@ -40,10 +40,10 @@ kubectl create secret generic my-secrets --from-literal=hub0-cs='<iot-hub-owner-
 kubectl --namespace kube-system create serviceaccount tiller
 kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
 helm init --service-account tiller
-cd iot-edge-virtual-kubelet-provider/src/charts/iot-edge-connector/
 ```
 <br/> *wait a second so the tiller has time to initiate* <br/>
 ```sh
+cd iot-edge-virtual-kubelet-provider/src/charts/iot-edge-connector/
 helm install -n hub0 --set rbac.install=true .
 ```
 
