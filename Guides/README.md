@@ -29,6 +29,8 @@ az aks get-credentials -n <aks cluster new> -g <resource group>
 ```
 
 ## Generate Secrets 
+
+You can find the iot-hub-owner-connection string by first navigating to the IoT Hub you created. From there, in the bar on the left, scroll down to the 'Shared Access Policies' under the settings tab. Now click on the iothubowner bar, which should pop up a window on the right. Near the bottom you will see the primary connection string (the third one down). You can copy it by clicking the blue button to the right of the string.
 ```sh
 kubectl create secret generic my-secrets --from-literal=hub0-cs='<iot-hub-owner-connection-string>'
 ```
