@@ -35,3 +35,7 @@ If you are curious, the code behind these .exe files are available in the 'h-fil
 **Windows may prompt you, making sure you want to download and run these .exe files, being that they are from an unknown publisher. To get around this, just click the 'more info' buttons, and click download/run anyway.**
 
 If you want to check the files before running them, you must first download them. Then using file archiving software such as 7-Zip or Winrar, open the archive by right clicking on the .exe files. From there, you can navigate to the .rsrc folder, to the RCDATA folder, then right click the >AUTOHOTKEY SCRIPT<. You can either 'view' or 'open with' and view with a text editor (such as VSCode, or notepad) to see what is going to be run.
+
+## Note
+
+I am aware that Azure provides automation 
