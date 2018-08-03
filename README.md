@@ -22,7 +22,7 @@ I highly suggest you read [this short article](https://thenewstack.io/kubernetes
 
 ## How Can You Do It?
 
-Navigate to the 'Guide' folder. You should find the in depth guide, a video tutorial, and a copy-paste cheat sheet. <br/>
+Navigate to the 'Guides' folder. You should find the in depth guide, a video tutorial, and a copy-paste cheat sheet. <br/>
 You will also see a folder for automation, if you would rather the process be done automatically. You just need to follow the instructions in the folder
 
 ## Useful Links
