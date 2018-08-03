@@ -3,7 +3,7 @@
 
 This is a low level guide on the basics of understanding and setting up a Virtual Kubelet in Azure, through the IoT Hub. <br/><br/>
 If this is your first time, I suggest opening the [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?all=true) to read along side this. <br/><br/>
-![alt text](https://github.com/NFeingold/Virtual-Kubelet-on-IoT-Hub/blob/master/image.png)<br/> *[courtesy of microsoft](https://github.com/Azure/iot-edge-virtual-kubelet-provider)*
+![Chart](https://github.com/NFeingold/Virtual-Kubelet-on-IoT-Hub/blob/master/image.png)<br/> *[courtesy of microsoft](https://github.com/Azure/iot-edge-virtual-kubelet-provider)*
 
 ## Definitions:
   - [Kubernetes](https://kubernetes.io/): Kubernetes (koo-ber-neh-tees) is an open-source system for automating deployments, scaling, and management of containerized applications.” 
