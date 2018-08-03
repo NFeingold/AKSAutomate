@@ -2,7 +2,7 @@
 # Kubernetes, Azure IoT Hub/Edge, and Virtual Kubelet
 
 This is a low level guide on the basics of understanding and setting up a Virtual Kubelet in Azure, through the IoT Hub. <br/><br/>
-If this is your first time, I suggest opening the [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?all=true) to read along side this. <br/><br/>
+If this is your first time, I suggest opening the [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?all=true) to read along side this. <br/>
 
 
 ## Definitions:
