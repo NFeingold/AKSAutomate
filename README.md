@@ -1,6 +1,8 @@
 
 # Kubernetes, Azure IoT Hub/Edge, and Virtual Kubelet
 
+This is a low level guide on the basics of understanding and setting up a Virtual Kubelet in Azure, through the IoT Hub. 
+
 ## Definitions:
   - [Kubernetes](https://kubernetes.io/): Kubernetes (koo-ber-neh-tees) is an open-source system for automating deployments, scaling, and management of containerized applications.” 
     [Here](https://www.youtube.com/watch?v=IMOZCDhH7do) is a simplified video, explaining what Kubernetes does. You should view Kubernetes as a service for container management.
