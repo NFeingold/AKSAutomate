@@ -1,7 +1,7 @@
 # Steps to Use
-First, one must install [AutoHotKey](https://autohotkey.com/)<br/>
+Download the above two .exe files. 
 
-Once Installed, download the two .h files above, then double click to prepare them. 
+Run both of the files by double clicking on them <br/>
 
 Pressing Ctrl+Shift+J will prompt you for:
   - Resource Name 
@@ -20,4 +20,4 @@ This will paste the following:
 ```sh
 kubectl create secret generic my-secrets --from-literal=hub0-cs=’My Secret’ && kubectl --namespace kube-system create serviceaccount tiller && kubectl create clusterrolebinding tiller-cluster-rerrole=cluster-admin --serviceaccount=kube-system:tiller && helm init --service-account tiller && cd iot-edge-virtual-kubelet-provider/src/charts/iot-edge-connector/ && helm install -n hub0 --set rbac.install=true . && cd 
 ```
-<i/> Please remember to click in the terminal or notepad before using these commands
+**Please remember to click in the terminal or notepad before using these commands**
