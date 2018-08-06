@@ -10,20 +10,22 @@ git clone https://github.com/Azure/iot-edge-virtual-kubelet-provider.git
 
 ## Create a Resource Group, and IoT Hub, and an AKS Cluster
 
-I prefer creating the IoT Hub through the Azure Interface, and this is what you will see my do in the video. If you prefer this:
+- I prefer creating the IoT Hub through the Azure Interface, and this is what you will see my do in the video. If you prefer this:
 ```sh
 az group create -n <resource group> -l <location: westus, eastus>
 az aks create -n <aks cluster name> -g <resource group> -c <node count, 1> --generate-ssh-keys
 ```
 Follow this with navigating to the IoT Hub section, clicking + in the top left corner, and creating a new hub with the resource group you just created. The free options will be fine for this demo.
 
-If you prefer creating the Hub through bash, use this instead:
+- If you prefer creating the Hub through bash, use this instead:
 ```sh
 az group create -n <resource group> -l <location: westus, eastus>
 az iot hub create -n <iot hub name> -g <resource group> --sku <s1>
 az aks create -n <aks cluster name> -g <resource group> -c <node count, 1> --generate-ssh-keys
 ```
 *you may want to add* ```sh --no-wait ``` *to the end of the previous command* (```az aks create```), *so you can interact with the command line while the aks cluster is being created*
+
+## Connect to the AKS Cluster
 ```sh
 az aks get-credentials -n <aks cluster new> -g <resource group>
 ```
