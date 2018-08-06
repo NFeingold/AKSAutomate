@@ -14,7 +14,7 @@ Run both of the files by double clicking on them <br/>
 
 This will paste the following:
 ```sh
-az group create -n <myResource> --location eastus && az iot hub create -n <myHub> -g <myResource> --sku S1 && az aks create -g <myResource> -n <myAKS> -c 1 --generate-ssh-keys && az aks get-credentials -g <myResource> -n myAKS && kubectl get nodes 
+az group create -n <myResource> --location eastus && az iot hub create -n <myHub> -g <myResource> --sku S1 && az aks create -g <myResource> -n <myAKS> -c 1 --generate-ssh-keys && az aks get-credentials -g <myResource> -n <myAKS> && kubectl get nodes 
 ```
 ## Part 2
 #### Pressing Ctrl+Shit+L will prompt you for:
