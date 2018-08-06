@@ -31,5 +31,6 @@ You will also see a folder for automation, if you would rather the process be do
 - [IoT Edge Virtual Kubelet Provider GitHub](https://github.com/azure/iot-edge-virtual-kubelet-provider)
 - [Virtual Kubelet GitHub](https://github.com/virtual-kubelet/virtual-kubelet)
 - [What is the IoT Hub?](https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub)
+- [Kubernetes Integration with Azure IoT Edge Video](https://www.youtube.com/watch?v=p-R2mV7Bxuk)
 
 <br/><br/><br/><br/> *Questions? Comments? Concerns? Email me at nfeingold@attunix.com*
