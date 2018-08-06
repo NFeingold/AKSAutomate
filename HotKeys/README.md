@@ -38,4 +38,5 @@ If you want to check the files before running them, you must first download them
 
 ## Note
 
-I am aware that Azure provides automation, though it does not currently work with kubernetes. So I made this as an alternative
+I am aware that Azure provides automation, though it does not currently work with kubernetes. So I made this as an alternative.
+I have *only* tested this on Windows Machines, and I do not think they will work elsewhere. If you test it on your machine, let me know the results
