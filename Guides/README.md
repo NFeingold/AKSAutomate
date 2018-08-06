@@ -23,6 +23,9 @@ az group create -n <resource group> -l <location: westus, eastus>
 az iot hub create -n <iot hub name> -g <resource group> --sku <s1>
 az aks create -n <aks cluster name> -g <resource group> -c <node count, 1> --generate-ssh-keys
 ```
+
+##
+
 *you may want to add* ```sh --no-wait ``` *to the end of the previous command* (```az aks create```), *so you can interact with the command line while the aks cluster is being created*
 
 ## Connect to the AKS Cluster
