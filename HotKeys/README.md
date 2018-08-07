@@ -28,7 +28,8 @@ kubectl create secret generic my-secrets --from-literal=hub0-cs='<My Secret>' &&
 **Please remember to click in the terminal or in notepad before using the key commands**
 
 
-If you are curious, the code behind these .exe files are available in the 'h-files' folder
+If you are curious, the code behind these .exe files are available in the 'h-files' folder.
+If you would prefer, you can download the .h files rather than the .exe so you can see what you will be running
 
 ## Warning
 
