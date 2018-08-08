@@ -24,6 +24,8 @@ This will paste the following:
 ```sh
 kubectl create secret generic my-secrets --from-literal=hub0-cs='<My Secret>' && kubectl --namespace kube-system create serviceaccount tiller && kubectl create clusterrolebinding tiller-cluster-rerrole=cluster-admin --serviceaccount=kube-system:tiller && helm init --service-account tiller && cd iot-edge-virtual-kubelet-provider/src/charts/iot-edge-connector/ && helm install -n hub0 --set rbac.install=true . && cd 
 ```
+**Note:** After the first command runs, wait around 10 seconds and the second half will run. This is giving the Tiller time to get ready. If you get the error 'Could not find ready tiller pod,' then wait 10ish more seconds, and run the last command again (up-arrow, enter). Sometimes this can take up to a minute, so give it time and try several times. 
+#
 
 **Please remember to click in the terminal or in notepad before using the key commands**
 
